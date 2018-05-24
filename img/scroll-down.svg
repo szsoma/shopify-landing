@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="65" viewBox="0 0 30 65">
+    <g fill="none" fill-rule="evenodd" transform="translate(-10)">
+        <path stroke="#444" d="M31.5 28.417V17.583c0-3.913-3.135-7.083-7-7.083s-7 3.17-7 7.083v10.834c0 3.913 3.135 7.083 7 7.083s7-3.17 7-7.083z"/>
+        <circle cx="24.5" cy="16.5" r="1.5" fill="#444"/>
+        <circle cx="24.5" cy="6.5" r="1.5" fill="#444"/>
+        <circle cx="24.5" cy="1.5" r="1.5" fill="#444"/>
+        <text fill="#444" font-family="Montserrat-SemiBold, Montserrat" font-size="10" font-weight="500">
+            <tspan x="11.285" y="51">Scroll </tspan> <tspan x="10.2" y="64">Down</tspan>
+        </text>
+    </g>
+</svg>

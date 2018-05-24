@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Optimonk for Agencys</title>
+
+    <!-- Style -->
+    
+    <link rel="stylesheet" type="text/css" href="https://www.optimonk.com/catalog/view/theme/optimonk/dest/css/global.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="https://www.optimonk.com/custom/stylesheet/optimonk/optimonk.1522830586.0.1522830586.0.css" media="screen" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="web/css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <section class="agency-header">
+      <div class="container">
+        <div class="row text-left">
+          <embed class="svg-image" src="img/logo-horizontal.svg" type="image/svg+xml">
+        </div>
+      </div>
+    </section>
+
+<!-- Banner -->
+    <section>
+      <div class="container banner">
+        <div class="row">
+          <div class="banner-text col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <h1 class="banner-h1">Stop Losing Customers</h1>
+            <p class="banner-p">Recover your abandoning visitors up to 15%, Build your audience and Engage your visitors without annoying them. Use our smart popups and onsite widgets for FREE.</p>
+            <a class="agency-button" href="https://www.optimonk.com/plans-and-pricing" target="_blank">Create my free account</a>
+          </div>
+      
+          <div class="hidden-md hidden-lg col-xs-12 col-sm-12 col-md-8 col-lg-8">
+              <img class="banner-img img-responsive" src="img/banner-img.png" alt="optimonk admin">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+              <div class="hidden-xs hidden-sm" id="notebook-video" >
+                <iframe width="480" height="297" src="img/om-admin-1200.mp4" frameborder="0" allowfullscreen></iframe>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <embed class="scroll" src="img/scroll-down.svg" type="image/svg+xml">
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Trusted logos -->
+    <section class="width-100">
+      <div class="container trusted-logos">
+        <div class="row trusted-head">
+          <h2 class="orange-head">Trusted by 12,363 websites worldwide</h2>
+        </div>
+        <div class="row logos">
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <a href="https://www.digitalmarketer.com" target="_blank"><img class="img-responsive ref-logo" src="img/digitalm.png" alt="digitalmarketer"></a>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <a href="https://zooshoo.com/" target="_blank"><img class="img-responsive ref-logo" src="img/zooshoo.png" alt="zooshoo"></a>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <a href="https://officedepot.hu/" target="_blank"><img class="img-responsive ref-logo" src="img/officed.png" alt="officedepot"></a>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <a href="https://smartmarketer.com/" target="_blank"><img class="img-responsive ref-logo" src="img/smartm.png" alt="smartmarketer"></a>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <a href="http://www.seiko.hu/" target="_blank"><img class="img-responsive ref-logo" src="img/seiko.png" alt="seiko"></a>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <a href="https://avononline.avon.hu/" target="_blank"><img class="img-responsive ref-logo" src="img/avon.png" alt="avon"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Tab-menu -->
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <h2 class="section-head">Powerful & User-friendly On-Site Widgets</h2>
+          <p class="subhead-p">Engaging your visitors has never been smarter</p>
+        </div>
+        <div class="row">
+          <button class="tablink col-xs-6 col-sm-6 col-md-2 col-lg-2" onclick="openPic('popups', this)" id="defaultOpen">Exit-Intent Popups</button>
+          <button class="tablink col-xs-6 col-sm-6 col-md-2 col-lg-2" onclick="openPic('nanobars', this)">Nanobars</button>
+          <button class="tablink col-xs-6 col-sm-6 col-md-2 col-lg-2" onclick="openPic('sidebars', this)">Sidebars</button>
+          <button class="tablink col-xs-6 col-sm-6 col-md-2 col-lg-2" onclick="openPic('embedded', this)">Embedded</button>
+          <button class="tablink col-xs-6 col-sm-6 col-md-2 col-lg-2" onclick="openPic('interstitials', this)">Interstitials</button>
+          <button class="tablink col-xs-6 col-sm-6 col-md-2 col-lg-2" onclick="openPic('tabs', this)">Tabs</button>
+          
+          <div id="popups" class="tabcontent">
+            <img class="img-responsive" src="img/popup-img.png" alt="popups">
+          </div>
+          
+          <div id="nanobars" class="tabcontent">
+              <img class="img-responsive" src="img/nanobar-img.png" alt="nanobars">
+          </div>
+          
+          <div id="sidebars" class="tabcontent">
+              <img class="img-responsive" src="img/sidebars-img.png" alt="sidebars">
+          </div>
+          
+          <div id="embedded" class="tabcontent">
+              <img class="img-responsive" src="img/embedded-img.png" alt="embedded">
+          </div>
+
+          <div id="interstitials" class="tabcontent">
+              <img class="img-responsive" src="img/interstitials-img.png" alt="interstitials">
+          </div>
+          
+          <div id="tabs" class="tabcontent">
+              <img class="img-responsive" src="img/tabs-img.png" alt="tabs">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container discover">
+        <div class="row">
+          <h2 class="section-head">Discover the Endless Use Cases</h2>
+            <p class="subhead-p">Enyoj the different ways to save and engage your visitors</p>
+          </div>
+        </div>
+        <div class="row skewed-bg"></div>
+        <div class="row advantages">
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <embed class="adv-icon" src="img/advantages/email.svg" type="image/svg+xml">
+            <p>Build email list</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <embed class="adv-icon" src="img/advantages/social.svg" type="image/svg+xml">
+            <p>Social Sharing</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <embed class="adv-icon" src="img/advantages/recommend.svg" type="image/svg+xml">
+            <p>Recommend products</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <embed class="adv-icon" src="img/advantages/promote.svg" type="image/svg+xml">
+            <p>Promote offers</p>
+          </div>
+        </div>
+        <div class="row advantages-2">
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+              <embed class="adv-icon" src="img/advantages/cart.svg" type="image/svg+xml">
+              <p>Stop Cart<br>Abandonment</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <embed class="adv-icon" src="img/advantages/messenger.svg" type="image/svg+xml">
+            <p>Collect Messenger<br>subscribers</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <embed class="adv-icon" src="img/advantages/surveys.svg" type="image/svg+xml">
+            <p>Surveys & Feedback</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <embed class="adv-icon" src="img/advantages/wheel.svg" type="image/svg+xml">
+            <p>Lucky Wheel</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <div class="container">
+        <div class="row">
+          <h2 class="section-head">Powerful Features for Your E-Tailer Business</h2>
+          <p class="subhead-p">OptiMonk has everything to provide you a more polite way to reach your target<br>audiance without annoying them</p>
+        </div>
+        <div class="row features">
+          <div class="text-left col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="features-title">
+              <embed class="features-icon" src="img/features/exit.svg" type="image/svg+xml">
+              <h4 class="features-h4">Exit Intent</h4>
+            </div>
+            <p class="features-p">Grab your visitors' attention with a unique offer right as they are about to leave your site. It gives you a second chance to convert them to buyers.</p>
+          </div>
+          <div class="text-left col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="features-title">
+              <embed class="features-icon" src="img/features/editor.svg" type="image/svg+xml">
+              <h4 class="features-h4">Advanced editor</h4>
+            </div>
+            <p class="features-p">Our user-friendly drag'n'drop editor allows you to create eye-catching widgets that blend perfectly with your clients' site without any HTML or CSS knowledge.</p>
+          </div>
+          <div class="text-left col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="features-title">
+                <embed class="features-icon" src="img/features/mobile.svg" type="image/svg+xml">
+                <h4 class="features-h4">Mobile optimized</h4>
+              </div>
+              <p class="features-p">OptiMonk provides 40+ responsive campaign templates for engaging smartphone or tablet users in order to grab the attention of visitors who are on the go.</p>
+          </div>
+        </div>
+        <div class="row features-2">
+            <div class="text-left col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="features-title">
+                <embed class="features-icon" src="img/features/ab.svg" type="image/svg+xml">
+                <h4 class="features-h4">A/B testing</h4>
+              </div>
+              <p class="features-p">Create unlimited variants within a campaign to test different designs and messages. The test will show which subtle changes showed the biggest improvement.</p>
+            </div>
+            <div class="text-left col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="features-title">
+                <embed class="features-icon" src="img/features/target.svg" type="image/svg+xml">
+                <h4 class="features-h4">Targeting & segmentation</h4>
+              </div>
+              <p class="features-p">Target every single visitor with the most relevant offer based on their unique preferences and deliver the right message to the right person at the right time.</p>
+            </div>
+            <div class="text-left col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="features-title">
+                  <embed class="features-icon" src="img/features/real-time.svg" type="image/svg+xml">
+                  <h4 class="features-h4">Real-Time Analytics</h4>
+                </div>
+                <p class="features-p">In addition to our built-in analytics dashboard that shows your results real-time, you can easily integrate your account with Google Analytics or Tag Manager.</p>
+            </div>
+          </div>
+          <div class="row link">
+            <a class="link" href="https://www.optimonk.com/exit-intent-and-triggering" target="_blank">See all features</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+        <div class="container">
+          <div class="row">
+            <h2 class="section-head">Get Started for FREE Now, Upgrade Later</h2>
+          </div>
+          
+          <div class="row table-wrap">
+              <table> 
+                <tr class="table-head">
+                  <th>Starter</th>
+                  <th>Bronze</th>
+                  <th>Silver</th>
+                  <th>Gold</th>
+                  <th>Platinum</th>
+                </tr>
+                <tr>
+                  <td>FREE</td>
+                  <td>$29 / month</td>
+                  <td>$59 / month</td>
+                  <td>$99 / month</td>
+                  <td>$199 / month</td>
+                </tr>
+                <tr>
+                  <td>1,000 visitors / mo. 1 domain</td>
+                  <td>5,000 visitors / mo. 1 domain</td>
+                  <td>15,000 visitors / mo. 2 domain</td>
+                  <td>50,000 visitors / mo. 4 domain</td>
+                  <td>250,000 visitors / mo. 10 domain</td>
+                </tr>
+              </table>
+          </div>
+
+          <div class="row">
+            <p class="subhead-p">All Features & Unlimited Number of Campaigns Included in All Pans</p>
+          </div>
+          <div class="row">
+              <a class="link" href="https://www.optimonk.com/exit-intent-and-triggering" target="_blank">See all features</a>
+          </div>
+          <div class="row support-cta">
+              <a class="agency-button" href="https://www.optimonk.com/plans-and-pricing" target="_blank">Create my free account</a>
+          </div>
+        </div>
+    </section>
+    
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="opinion-card col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <img class="img-responsive" src="img/opinion1.png" alt="first opinion">
+            <p class="opinion-p">I use a 10% off coupon popup and unique coupon code. We have received about $22,000 in sales from that coupon code in a little over a month so the app more than pays for itself especially if you have a lot of traffic like we do.</p>
+            <h4 class="opinion-h4">Eric Moore</h4>
+            <p class="company-name">www.bullhidebelts.com</p>
+          </div>
+          <div class="opinion-card col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <img class="img-responsive" src="img/opinion2.png" alt="first opinion">
+            <p class="opinion-p">Optimonk has dramatically increased lead captures on our site and we have definitely noticed a lot more people utilising discount codes as a result of the 'coupon code reminder' feature!</p>
+            <h4 class="opinion-h4">Inga Truscott</h4>
+            <p class="company-name">www.tolmanselfcare.com</p>
+          </div>
+          <div class="opinion-card col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <img class="img-responsive" src="img/opinion3.png" alt="first opinion">
+            <p class="opinion-p">I love the split testing functionality as well as the huge number of options that really helps me to personalise what type of visitor is shown what, based on their activity. Highly recommended.</p>
+            <h4 class="opinion-h4">Williams Greg</h4>
+            <p class="company-name">www.autoimmuneinstitute.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="awards">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 awards-card">
+            <img class="img-responsive awards-pic am" src="img/amazon.png" alt="first opinion">
+            <h4 class="awards-h4">AWS servers 99,9% uptime in 2017</h4>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 awards-card">
+            <img class="img-responsive awards-pic " src="img/creatives.png" alt="first opinion">
+            <h4 class="awards-h4">Creative Solution of the Year 2014</h4>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 awards-card">
+            <img class="img-responsive awards-pic eba" src="img/eba.png" alt="first opinion">
+            <h4 class="awards-h4">European Business Awards 2018</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="team-photo col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img class="img-responsive" src="img/om-team.png" alt="optimonk team">
+          </div>
+          <div class="row team-title">
+            <h2 class="section-head-team">Extend your services with a White Label CRO & Lead generation Tool</h2>
+            <p class="team-p">Grow your Agency, and drive more leads and sales to your clients</p>
+          </div>
+        </div>
+        <div class="row support-cta">
+            <a class="agency-button" href="https://www.optimonk.com/plans-and-pricing" target="_blank">Create my free account</a>
+        </div>
+        <div class="team-bg"></div>
+      </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+<!-- <footer>
+  <p class="footer-p">Copyright © 2018 OptiMonk</p>
+</footer> -->
+
+
+    <script>
+      function openPic(featureName,elmnt,color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+  
+        document.getElementById(featureName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+
+      }
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+
+<!--   <script>
+      $('#myTabs a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+      })
+
+      $('#myTabs a[href="#popups"]').tab('show') // Select tab by name
+
+    </script> --> 
+
+  </body>
+</html>
