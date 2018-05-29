@@ -5,15 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Optimonk for Agencys</title>
+    <title>Optimonk for Shopify</title>
 
     <!-- Style -->
     
     <link rel="stylesheet" type="text/css" href="https://www.optimonk.com/catalog/view/theme/optimonk/dest/css/global.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="https://www.optimonk.com/custom/stylesheet/optimonk/optimonk.1522830586.0.1522830586.0.css" media="screen" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://www.optimonk.com/catalog/view/theme/optimonk/dest/css/plans-and-pricing.css" rel="stylesheet" />
+  
+    
+
     <link href="web/css/style.css" rel="stylesheet">
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.optimonk.com/catalog/view/theme/optimonk/dest/js/optimonk.min.js?v=1527238307"></script>
+
+
+    
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -28,7 +36,7 @@
     <section class="agency-header">
       <div class="container">
         <div class="row text-left">
-          <embed class="svg-image" src="img/logo-horizontal.svg" type="image/svg+xml">
+          <embed class="svg-image" src="img/shopify-logo.svg" type="image/svg+xml">
         </div>
       </div>
     </section>
@@ -42,14 +50,8 @@
             <p class="banner-p">Recover your abandoning visitors up to 15%, Build your audience and Engage your visitors without annoying them. Use our smart popups and onsite widgets for FREE.</p>
             <a class="agency-button" href="https://www.optimonk.com/plans-and-pricing" target="_blank">Create my free account</a>
           </div>
-      
-          <div class="hidden-md hidden-lg col-xs-12 col-sm-12 col-md-8 col-lg-8">
-              <img class="banner-img img-responsive" src="img/banner-img.png" alt="optimonk admin">
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-              <div class="hidden-xs hidden-sm" id="notebook-video" >
-                <iframe width="480" height="297" src="img/om-admin-1200.mp4" frameborder="0" allowfullscreen></iframe>
-              </div>
+          <div id="notebook-video" class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                <iframe width="512" height="320" src="img/om-admin-1200.mp4" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
         <div class="row">
@@ -238,38 +240,136 @@
       </div>
     </section>
     
-    <section>
-        <div class="container">
-          <div class="row">
-            <h2 class="section-head">Get Started for FREE Now, Upgrade Later</h2>
+<section>
+  <div class="container">
+  <div class="row">
+    <h2 class="section-head">Get Started for FREE Now, Upgrade Later</h2>
+  </div>
+</div>
+</section>
+
+    <section class="plans-pricing">
+      <div class="stage pandp01">
+      <div class="stage-inner">
+      <div class="package-choose">
+      <h3>Choose the plan that&#39;s best for you:</h3>
+      
+      <div class="package-chooser"><a class="monthly-pay selected" data-toggle="package-monthly">Month</a> <a class="yearly-pay" data-toggle="package-yearly">Year (-20%)</a></div>
+      </div>
+      
+      <div id="packages-tables">
+      
+          <div class="packages-table2 package-monthly selected">
+          <div class="packages-table-item">
+          <div class="packages-table-title">Starter</div>
+          
+          <ul>
+            <li class="extra"><span class="price">Free</span></li>
+            <li>1,000 visitors / mo.</li>
+            <li>1 domain</li>
+          </ul>
           </div>
           
-          <div class="row table-wrap">
-              <table> 
-                <tr class="table-head">
-                  <th>Starter</th>
-                  <th>Bronze</th>
-                  <th>Silver</th>
-                  <th>Gold</th>
-                  <th>Platinum</th>
-                </tr>
-                <tr>
-                  <td>FREE</td>
-                  <td>$29 / month</td>
-                  <td>$59 / month</td>
-                  <td>$99 / month</td>
-                  <td>$199 / month</td>
-                </tr>
-                <tr>
-                  <td>1,000 visitors / mo. 1 domain</td>
-                  <td>5,000 visitors / mo. 1 domain</td>
-                  <td>15,000 visitors / mo. 2 domain</td>
-                  <td>50,000 visitors / mo. 4 domain</td>
-                  <td>250,000 visitors / mo. 10 domain</td>
-                </tr>
-              </table>
+          <div class="packages-table-item">
+          <div class="packages-table-title">Bronze</div>
+          
+          <ul>
+            <li class="extra"><span class="price">$29</span> / month</li>
+            <li>5,000 visitors / mo.</li>
+            <li>1 domain</li>
+          </ul>
           </div>
-
+          
+          <div class="packages-table-item">
+          <div class="packages-table-title">Silver</div>
+          
+          <ul>
+            <li class="extra"><span class="price">$59</span> / month</li>
+            <li>15,000 visitors / mo.</li>
+            <li>2 domain</li>
+          </ul>
+          </div>
+          
+          <div class="packages-table-item">
+          <div class="packages-table-title">Gold</div>
+          
+          <ul>
+            <li class="extra"><span class="price">$99</span> / month</li>
+            <li>50,000 visitors / mo.</li>
+            <li>4 domain</li>
+          </ul>
+          </div>
+          
+          <div class="packages-table-item">
+          <div class="packages-table-title">Platinum</div>
+          
+          <ul>
+            <li class="extra"><span class="price">$199</span> / month</li>
+            <li>250,000 visitors / mo.</li>
+            <li>10 domain</li>
+          </ul>
+          </div>
+          </div>
+          
+          <div class="packages-table2 package-yearly">
+          <div class="packages-table-item">
+          <div class="packages-table-title">Starter</div>
+          
+          <ul>
+            <li class="extra"><span class="price">Free</span><br />
+            <li>1,000 visitors / mo.</li>
+            <li>1 domain</li>
+          </ul>
+          </div>
+          
+          <div class="packages-table-item">
+          <div class="packages-table-title">Bronze</div>
+          
+          <ul>
+            <li class="extra"><span class="price">$278</span> / year<br />
+            <span class="year-price"><span class="year-extra">$23.2</span> / month</span></li>
+            <li>5,000 visitors / mo.</li>
+            <li>1 domain</li>
+          </ul>
+          </div>
+          
+          <div class="packages-table-item">
+          <div class="packages-table-title">Silver</div>
+          
+          <ul>
+            <li class="extra"><span class="price">$566</span> / year<br />
+            <span class="year-price"><span class="year-extra">$47.2</span> / month</span></li>
+            <li>15,000 visitors / mo.</li>
+            <li>2 domain</li>
+          </ul>
+          </div>
+          
+          <div class="packages-table-item">
+          <div class="packages-table-title">Gold</div>
+          
+          <ul>
+            <li class="extra"><span class="price">$950</span> / year<br />
+            <span class="year-price"><span class="year-extra">$79.2</span> / month</span></li>
+            <li>50,000 visitors / mo.</li>
+            <li>4 domain</li>
+          </ul>
+          </div>
+          
+          <div class="packages-table-item">
+          <div class="packages-table-title">Platinum</div>
+          
+          <ul>
+            <li class="extra"><span class="price">$1910</span> / year<br />
+            <span class="year-price"><span class="year-extra">$159.2</span> / month</span></li>
+            <li>250,000 visitors / mo.</li>
+            <li>10 domain</li>
+          </ul>
+          </div>
+          </div>
+      </div>
+      
+    </section>
+      <div class="container">
           <div class="row">
             <p class="subhead-p">All Features & Unlimited Number of Campaigns Included in All Pans</p>
           </div>
@@ -280,6 +380,7 @@
               <a class="agency-button" href="https://www.optimonk.com/plans-and-pricing" target="_blank">Create my free account</a>
           </div>
         </div>
+      </div>
     </section>
     
     <section>
@@ -333,8 +434,8 @@
             <img class="img-responsive" src="img/om-team.png" alt="optimonk team">
           </div>
           <div class="row team-title">
-            <h2 class="section-head-team">Extend your services with a White Label CRO & Lead generation Tool</h2>
-            <p class="team-p">Grow your Agency, and drive more leads and sales to your clients</p>
+            <h2 class="section-head-team">Boost Your Shopify Store   and Engage Your Visitors in a More Polite Way</h2>
+            <p class="team-p">No one likes abusive popups or intrusive interstitials. That’s why our smart widgets provide endless opportunities to convert website visitors – without hurting the user experience</p>
           </div>
         </div>
         <div class="row support-cta">
@@ -354,14 +455,9 @@
     
     
     
-    
+  
 
-<!-- <footer>
-  <p class="footer-p">Copyright © 2018 OptiMonk</p>
-</footer> -->
-
-
-    <script>
+<script>
       function openPic(featureName,elmnt,color) {
         var i, tabcontent, tablinks;
         tabcontent = document.getElementsByClassName("tabcontent");
@@ -377,16 +473,6 @@
       // Get the element with id="defaultOpen" and click on it
       document.getElementById("defaultOpen").click();
     </script>
-
-<!--   <script>
-      $('#myTabs a').click(function (e) {
-        e.preventDefault()
-        $(this).tab('show')
-      })
-
-      $('#myTabs a[href="#popups"]').tab('show') // Select tab by name
-
-    </script> --> 
 
   </body>
 </html>

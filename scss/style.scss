@@ -36,6 +36,16 @@ body {
     padding: 0;
     order: 2;
 }
+
+#notebook-video {
+    transform: scale(.6);
+    iframe {
+        border-radius: 5px;
+        box-shadow: 0px 15px 60px 0px rgba(171, 177, 184, 0.5);
+    }
+}
+
+
 .banner-h1 {
     font-weight: 700;
 }
@@ -219,20 +229,43 @@ body {
 
 /* Price */
 
-.table-wrap {
-    margin: 6rem auto;
-    .table-head {
-        background-color: #f7931d;
-        margin: 3rem auto;
-        th {
-            text-align: center;
-        }
-    }
+.pandp01 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 
+.plans-pricing .packages-table-item:nth-child(3) {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.plans-pricing .packages-table-item {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    box-sizing: padding-box;
+}
+
+.plans-pricing .packages-table-item:last-child {
+    border-right:none;
+}
+
+.plans-pricing .packages-table-item ul {
+    border: 1px solid #ddd;
+    li.extra {
+    padding: 30px 10px;
+    border-bottom: none !important;
+    }
+}
+
 .support-cta {
     margin: 6rem auto;
+}
+
+.border {
+    border: 1px solid #ddd;
 }
 
 /* Opinions */
@@ -305,7 +338,7 @@ body {
     width: 100%;
     background-color: #f6f7fb;
     height: 256px;
-    margin-top: -228px;
+    margin-top: -243px;
     left: 0;
     z-index: -1;
 }
@@ -324,14 +357,19 @@ body {
         font-size: 8px;
     }
 
+    #notebook-video {
+        margin-top: 3rem;
+        transform: scale(.7);
+    }
+
     .skewed-bg {
         margin-top: -190px;
-        height: 1740px;
+        height: 1700px;
     }
 
     .team-bg {
-        height: 280px;
-        margin-top: -269px;
+        height: 290px;
+        margin-top: -284px;
     }
 
     .awards-pic {
@@ -354,23 +392,21 @@ body {
     }
 
     #notebook-video {
-        padding-bottom: 70%;
-        height: 0;
-        background: url('/img/banner-img.png') center center no-repeat;
+        transform: scale(.9);
         iframe {
-            box-sizing: border-box;
-            background-size: contain;
-            position: absolute;
-            padding: 7.3% 13% 12.8% 13%;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+            border-radius: 5px;
+            transform: matrix3d(1,0,0.00,-0.0004,0.00,1,-0.05,0.0000,0,0.05,1,0,0,0,30,1);
+-webkit-transform: matrix3d(1,0,0.00,-0.0004,0.00,1,-0.05,0.0000,0,0.05,1,0,0,0,30,1);
+            box-shadow: 0px 15px 60px 0px rgba(171, 177, 184, 0.5);
         }
     }
     
+    .scroll {
+        margin-top: 5rem;
+    }
+
     .skewed-bg {
-        margin-top: -170px;
+        margin-top: -200px;
         height: 630px;
     }
     .advantages {
@@ -393,8 +429,8 @@ body {
     }
 
     .team-bg {
-        height: 250px;
-        margin-top: -243px;
+        height: 270px;
+        margin-top: -264px;
     }
    
 }
@@ -409,37 +445,28 @@ body {
         margin-top: 5rem;
     }
 
-    #notebook-video {
-        padding-bottom: 70%;
-        height: 0;
-        background: url('/img/banner-img.png') center center no-repeat;
-        iframe {
-            box-sizing: border-box;
-            background-size: contain;
-            position: absolute;
-            padding: 4.5% 19% 24% 19%;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-    }
-
-
     .banner-text {
         text-align: left;
     }
 
-    .banner-img {
-        margin-top: 0;
+
+    #notebook-video {
+        iframe {
+            border-radius: 5px;
+            transform: matrix3d(1,0,0.00,-0.0004,0.00,1,-0.05,0.0000,0,0.05,1,0,0,0,30,1);
+-webkit-transform: matrix3d(1,0,0.00,-0.0004,0.00,1,-0.05,0.0000,0,0.05,1,0,0,0,30,1);
+            box-shadow: 0px 15px 60px 0px rgba(171, 177, 184, 0.5);
+        }
     }
 
+    .scroll {
+        margin-top: 8rem;
+    }
 
     .skewed-bg {
         margin-top: -270px;
         height: 740px;
     }
-
 
     .thumbnail {
         height: 440px;
@@ -447,6 +474,10 @@ body {
 
     .support-icon {
         height: 90px;
+    }
+
+    .plans-pricing .stage-inner {
+        width: 1140px;
     }
 
     .awards-card img {
@@ -459,8 +490,9 @@ body {
 
     .team-bg {
         height: 336px;
-        margin-top: -293px;
+        margin-top: -318px;
     }
 
 
 }
+
